@@ -29,7 +29,7 @@ def FigureS3(
 
 
     plt.tight_layout()
-    fig.savefig(os.path.join(savepath, 'Fig_S3_interneuron_panels.svg'), format='svg', bbox_inches='tight')
+    fig.savefig(os.path.join(savepath, 'Fig_S3.svg'), format='svg', bbox_inches='tight')
 
     plt.show()
 

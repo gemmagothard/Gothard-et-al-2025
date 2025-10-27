@@ -31,7 +31,7 @@ def Figure1(
         plotting_functions.scatter_bar_plot(ax[idx,2],[data_subset.OP_pial_dist.values,data_subset.IP_pial_dist.values], palette, labels, True ,"Pial distance (\u03BCm)", savefig, savepath,False)
 
     plt.tight_layout()
-    fig.savefig(os.path.join(savepath, 'Fig_1_interneuron_panels.svg'), format='svg', bbox_inches='tight')
+    fig.savefig(os.path.join(savepath, 'Fig_1.svg'), format='svg', bbox_inches='tight')
 
     plt.show()
 
