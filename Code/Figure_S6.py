@@ -19,8 +19,6 @@ def FigureS6(
     palette_points = {'unlabeled': '#808080',
                     'IP-OP': '#8DC170'}
     
-    red_green_palette = ['#C70909','#8DC170']
-
     data_to_plot = pd.read_csv(datapath)
 
     n_plots = 2
